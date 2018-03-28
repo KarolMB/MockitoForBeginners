@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4d46ec-4cea-474b-9310-07926e53dabb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/TodoBusinessImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/TodoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/main/TodoServiceStub.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java/src/test/TodoBusinnesImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java/src/test/TodoBusinnesImplTest.java" afterPath="$PROJECT_DIR$/java/src/test/TodoBusinnesImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,7 +31,7 @@
       <file leaf-file-name="TodoBusinessImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/main/TodoBusinessImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="173">
               <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -49,8 +45,8 @@
       <file leaf-file-name="TodoServiceStub.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java/src/main/TodoServiceStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="240">
+              <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +57,8 @@
       <file leaf-file-name="TodoBusinnesImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/src/test/TodoBusinnesImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -260,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TodoBusinnesImplTest.testRetrieveTodosRelatedToSpring_usingStub">
+  <component name="RunManager" selected="JUnit.TodoBusinnesImplTest">
     <configuration default="false" name="ExampleTest.example_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -327,6 +323,58 @@
       <option name="MAIN_CLASS_NAME" value="test.TodoBusinnesImplTest" />
       <option name="METHOD_NAME" value="testRetrieveTodosRelatedToSpring_usingStub" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/working_dir" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TodoBusinnesImplTest.testRetrieveTodosRelatedToSpring_usingMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoBusinnesImplTest" />
+      <option name="METHOD_NAME" value="testRetrieveTodosRelatedToSpring_usingMock" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TodoBusinnesImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoBusinnesImplTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/working_dir" />
@@ -543,16 +591,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ExampleTest.example_test" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TodoBusinnesImplTest.testRetrieveTodosRelatedToSpring_usingStub" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TodoBusinnesImplTest.testRetrieveTodosRelatedToSpring_usingMock" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TodoBusinnesImplTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TodoBusinnesImplTest.testRetrieveTodosRelatedToSpring_usingStub" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ExampleTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExampleTest.example_test" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TodoBusinnesImplTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TodoBusinnesImplTest.testRetrieveTodosRelatedToSpring_usingMock" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TodoBusinnesImplTest.testRetrieveTodosRelatedToSpring_usingStub" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExampleTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExampleTest.example_test" />
       </list>
     </recent_temporary>
   </component>
@@ -576,6 +628,15 @@
     <history-entry file="ExampleTest - 2018.03.27 at 11h 05m 50s.xml">
       <configuration name="ExampleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TodoBusinnesImplTest - 2018.03.28 at 15h 54m 25s.xml">
+      <configuration name="TodoBusinnesImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoBusinnesImplTest - 2018.03.28 at 16h 17m 39s.xml">
+      <configuration name="TodoBusinnesImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoBusinnesImplTest - 2018.03.28 at 16h 19m 29s.xml">
+      <configuration name="TodoBusinnesImplTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TodoBusinnesImplTest_testRetrieveTodosRelatedToSpring_usingStub - 2018.03.28 at 15h 35m 36s.xml">
       <configuration name="TodoBusinnesImplTest.testRetrieveTodosRelatedToSpring_usingStub" configurationId="JUnit" />
     </history-entry>
@@ -593,7 +654,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1032" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1032" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -606,7 +667,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5021692" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.4978308" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.4978308" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.4978308" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3406214" sideWeight="0.49566162" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -766,9 +827,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/junit/lib/junit-jupiter-api-5.0.0-M4.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="135" column="23" lean-forward="false" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="23" />
+          <folding>
+            <element signature="e#4474#4475#0" expanded="true" />
+            <element signature="e#4533#4534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/TodoBusinessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="173">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -780,18 +852,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java/src/main/TodoServiceStub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="240">
+          <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java/src/test/TodoBusinnesImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
