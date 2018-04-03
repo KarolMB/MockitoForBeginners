@@ -10,6 +10,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -76,5 +77,39 @@ public class TodoBusinnesImplTest {
 
         assertThrows(RuntimeException.class, () -> listMock.get(0));
 
+    }
+
+    @Test
+    public void testRetrieveTodosRelatedToSpring_usingBDD() {
+        // Given
+        TodoService mockTodoService = mock(TodoService.class);
+
+        when(mockTodoService.retriveTodos("Dummy"))
+                .thenReturn(Arrays.asList("Learn Spring MVC", "Learn Spring", "Learn Dance"));
+
+        TodoBusinessImpl todoBusinessImpl = new TodoBusinessImpl(mockTodoService);
+
+        // When
+        List<String> filteredTodos = todoBusinessImpl.retrieveTodosRelatedToSpring("Dummy");
+
+        // Then
+        assertEquals(2, filteredTodos.size());
+    }
+
+    @Test
+    public void testRetrieveTodosRelatedToSpring_usingBDD2() {
+        // Given
+        TodoService mockTodoService = mock(TodoService.class);
+
+        given(mockTodoService.retriveTodos("Dummy"))
+                .willReturn(Arrays.asList("Learn Spring MVC", "Learn Spring", "Learn Dance"));
+
+        TodoBusinessImpl todoBusinessImpl = new TodoBusinessImpl(mockTodoService);
+
+        // When
+        List<String> filteredTodos = todoBusinessImpl.retrieveTodosRelatedToSpring("Dummy");
+
+        // Then
+        assertEquals(2, filteredTodos.size());
     }
 }
